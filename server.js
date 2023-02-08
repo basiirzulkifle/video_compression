@@ -19,7 +19,7 @@ app.use(
 
 // Routes
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("This is an API for Video Compression");
 });
 
 app.post("/compress-video", (req, res) => {
